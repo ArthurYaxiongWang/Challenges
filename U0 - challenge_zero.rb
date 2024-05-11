@@ -20,7 +20,7 @@ Grand Total: $#{grand_total} \n
 
 # Question 2 & 3:
 print "Enter the subtotal: "
-sub_total = gets.to_f
+sub_total = gets.chomp.to_f
 
 GST_RATE_Q3 = 0.05
 PST_RATE_Q3 = 0.07
